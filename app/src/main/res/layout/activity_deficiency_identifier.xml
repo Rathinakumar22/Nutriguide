@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_violet"
+    android:padding="16dp">
+
+    <!-- EditText for entering symptoms -->
+    <ImageView
+        android:id="@+id/imageViewDiet"
+        android:layout_width="308dp"
+        android:layout_height="318dp"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/background_violet"
+        android:src="@drawable/vitdef" />
+
+    <EditText
+        android:id="@+id/editTextSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter symptoms (e.g., fatigue)"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/hint_text_white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button for identifying deficiency -->
+    <Button
+        android:id="@+id/btnIdentifyDeficiency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identify Deficiency"
+        android:background="@drawable/button_background"
+        android:textColor="@color/text_white"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- TextView for displaying information -->
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/text_white"
+        android:gravity="center"
+        android:text="Your deficiency information will appear here." />
+</LinearLayout>

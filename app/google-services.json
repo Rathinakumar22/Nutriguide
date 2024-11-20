@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523115266236",
+    "project_id": "nutriguide-11a7b",
+    "storage_bucket": "nutriguide-11a7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523115266236:android:16bf7dbc97b217f4de90b9",
+        "android_client_info": {
+          "package_name": "com.example.nutriguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdF_a5Lx2MzsJswmPFRWUIwVWCoBV8U9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523115266236:android:4e36855c44449768de90b9",
+        "android_client_info": {
+          "package_name": "com.firstapp.nutriguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdF_a5Lx2MzsJswmPFRWUIwVWCoBV8U9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

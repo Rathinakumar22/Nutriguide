@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nutriguide</string>
+    <string name="invalid_input_message">Please enter a valid input.</string>
+    <string name="no_information_found">No information found.</string>
+    <string name="no_recommendations_found">No recommendations found.</string>
+    <string name="recommended_foods">Recommended foods: %1$s</string>
+    <string name="possible_deficiencies">Possible deficiencies: %1$s</string>
+    <string name="error_fetching_data">Error fetching data: %1$s</string>
+</resources>

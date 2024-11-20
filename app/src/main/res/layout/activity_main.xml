@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FFFCFC">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:lottie_rawRes="@raw/anime"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_marginBottom="38dp" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NutriGuide"
+            android:textColor="#673AB7"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Food Icon -->
+        <ImageView
+            android:id="@+id/foodIcon"
+            android:layout_width="95dp"
+            android:layout_height="98dp"
+            android:src="@drawable/food"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#673AB7"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <Button
+            android:id="@+id/btnDeficiency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deficiency"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#673AB7"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</RelativeLayout>
